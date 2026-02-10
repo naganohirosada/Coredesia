@@ -4,6 +4,7 @@ namespace App\Http\Controllers\cs;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use App\Http\Requests\UserStoreRequest;
 use App\Http\Controllers\Controller as BaseController;
 
 class UserController extends BaseController
@@ -41,7 +42,7 @@ class UserController extends BaseController
 	  * @param  \Illuminate\Http\Request  $request
 	  * @return \Illuminate\Http\Response
 	  */
-	public function store(Request $request)
+	public function store(UserStoreRequest $request)
 	{
 		$savedData = $request->all();
         // ユーザー作成

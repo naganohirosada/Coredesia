@@ -8,6 +8,8 @@ Route::get('/about', [App\Http\Controllers\PageController::class, 'about'])->nam
 Route::get('/contact', [App\Http\Controllers\PageController::class, 'contact'])->name('contact');
 Route::get('/services', [App\Http\Controllers\PageController::class, 'services'])->name('services');
 Route::get('/company', [App\Http\Controllers\PageController::class, 'company'])->name('company');
+Route::post('/contact/confirm', [App\Http\Controllers\ContactController::class, 'confirm'])->name('contact.confirm');
+Route::post('/contact/send', [App\Http\Controllers\ContactController::class, 'send'])->name('contact.send');
 Route::get('/privacy', function () {
     return view('privacy');
 });
