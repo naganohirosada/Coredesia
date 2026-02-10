@@ -23,6 +23,7 @@ jobs:
             git pull origin master
             composer install --no-dev --optimize-autoloader
             php artisan migrate --force
+            php artisan sitemap:generate
             php artisan config:cache
             php artisan route:cache
             sudo systemctl reload nginx
