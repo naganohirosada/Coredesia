@@ -1,0 +1,18 @@
+# 1. フォルダに移動
+cd /home/ubuntu/Coredesia
+
+# 2. GitHubから最新のコードを引っ張る
+git pull origin master
+
+# 3. ライブラリを最新にする（本番用設定）
+composer install --no-dev --optimize-autoloader
+
+# 4. データベースの更新を反映
+php artisan migrate --force
+
+# 5. 動作を速くするためのキャッシュ設定
+php artisan config:cache
+php artisan route:cache
+
+# 6. Nginxの設定を反映
+sudo systemctl reload nginx
