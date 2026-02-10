@@ -1,18 +1,28 @@
-# 1. フォルダに移動
-cd /home/ubuntu/Coredesia
+name: Deploy to EC2
 
-# 2. GitHubから最新のコードを引っ張る
-git pull origin master
+on:
+  push:
+    branches:
+      - master  # masterにプッシュされたら動くお！
 
-# 3. ライブラリを最新にする（本番用設定）
-composer install --no-dev --optimize-autoloader
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-# 4. データベースの更新を反映
-php artisan migrate --force
-
-# 5. 動作を速くするためのキャッシュ設定
-php artisan config:cache
-php artisan route:cache
-
-# 6. Nginxの設定を反映
-sudo systemctl reload nginx
+      - name: Deploy to EC2 via SSH
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /home/ubuntu/Coredesia
+            git pull origin master
+            composer install --no-dev --optimize-autoloader
+            php artisan migrate --force
+            php artisan config:cache
+            php artisan route:cache
+            sudo systemctl reload nginx
