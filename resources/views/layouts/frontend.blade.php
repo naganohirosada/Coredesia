@@ -33,17 +33,19 @@
         amplitude.init('1af1f5cbefdb32dc736dce40ddd6b0dc');
     </script>
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "株式会社Coredesia",
-        "url": "https://coredesiainc.com",
-        "logo": "https://coredesiainc.com/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "contactType": "customer service"
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "株式会社Coredesia",
+                "url": "https://coredesiainc.com",
+                "logo": "https://coredesiainc.com/logo.png",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "customer service"
+                }
             }
-        }
+        @endverbatim
     </script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
