@@ -431,11 +431,11 @@
                     <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">Coredesiaについて</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('services') }}">事業内容</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('company') }}">会社概要</a></li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link btn-pop ms-lg-3 mt-2 mt-lg-0" href="{{ route('contact') }}">
                             お問い合わせ <i class="bi bi-chat-heart-fill ms-1"></i>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>

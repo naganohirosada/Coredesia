@@ -184,9 +184,9 @@
                 共に新しい景色を見に行きましょう。
             </p>
             
-            <a href="/contact" class="btn btn-cta btn-lg px-5 py-3 rounded-pill fw-bold shadow-lg">
+            <!-- <a href="/contact" class="btn btn-cta btn-lg px-5 py-3 rounded-pill fw-bold shadow-lg">
                 お問い合わせはこちら <i class="bi bi-arrow-right-short ms-1"></i>
-            </a>
+            </a> -->
         </div>
     </section>
 </div>
