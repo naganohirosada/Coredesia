@@ -42,7 +42,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-5 text-center mb-5 mb-md-0" data-aos="fade-right">
                     <div class="profile-image-container">
-                        <img src="{{ asset('images/ceo-illust.png') }}" alt="長野 弘禎" class="profile-img img-fluid">
+                        <img src="{{ asset('images/ceo.jpg') }}" alt="長野 弘禎" class="profile-img img-fluid">
                     </div>
                 </div>
                 <div class="col-md-6" data-aos="fade-left">
