@@ -431,6 +431,12 @@
                     <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">Coredesiaについて</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('services') }}">事業内容</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('company') }}">会社概要</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link btn-pop ms-lg-3 mt-2 mt-lg-0" href="mailto:nagano_hirosada@coredesia.com?subject=お問い合わせ&body=株式会社Coredesia様%0D%0A%0D%0Aお問い合わせ内容：">
+                            お問い合わせはこちら <i class="bi bi-envelope-fill ms-1"></i>
+                        </a>
+                    </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link btn-pop ms-lg-3 mt-2 mt-lg-0" href="{{ route('contact') }}">
                             お問い合わせ <i class="bi bi-chat-heart-fill ms-1"></i>
