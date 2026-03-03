@@ -53,15 +53,6 @@
                     <a href="{{ route('about') }}" class="stretched-link"></a>
                 </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="card pop-card h-100 p-4 bg-white border-bottom border-danger border-4 shadow-sm position-relative">
-                    <i class="bi bi-chat-heart text-danger h1 mb-3"></i>
-                    <h5 class="fw-bold">Contact</h5>
-                    <p class="small text-muted">まずは、お気軽にご相談ください！</p>
-                    <a href="{{ route('contact') }}" class="stretched-link"></a>
-                </div>
-            </div>
         </div>
     </section>
 @endsection
