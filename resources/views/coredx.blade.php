@@ -127,14 +127,5 @@
         </div>
     </div>
 
-    <!-- お問い合わせCTA -->
-    <div class="cta-section" style="padding: 60px 20px; text-align: center; background-color: #ffffff;">
-        <h2 style="font-size: 22px; font-weight: 700; margin-bottom: 15px;">2ヶ月間の無料トライアル・デモ実施中</h2>
-        <p style="font-size: 14px; color: #4a5568; margin-bottom: 30px;">貴社の現在の業務フローに合わせた最適な活用方法をご提案します。お気軽にご相談ください。</p>
-        <a href="{{ route('contact') }}" style="display: inline-block; background-color: #3b82f6; color: #ffffff; font-weight: bold; padding: 15px 40px; border-radius: 6px; text-decoration: none; box-shadow: 0 4px 10px rgba(59,130,246,0.3); transition: background 0.2s;">
-            CORE DX PORTAL について問い合わせる
-        </a>
-    </div>
-
 </div>
 @endsection
