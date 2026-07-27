@@ -30,4 +30,9 @@ class PageController extends BaseController
     public function company() {         
         return view('company');
     }
+
+    public function coredx()
+    {
+        return view('coredx');
+    }
 }

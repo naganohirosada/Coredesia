@@ -10,6 +10,7 @@ Route::get('/services', [App\Http\Controllers\PageController::class, 'services']
 Route::get('/company', [App\Http\Controllers\PageController::class, 'company'])->name('company');
 Route::post('/contact/confirm', [App\Http\Controllers\ContactController::class, 'confirm'])->name('contact.confirm');
 Route::post('/contact/send', [App\Http\Controllers\ContactController::class, 'send'])->name('contact.send');
+Route::get('/services/core-dx-portal', [App\Http\Controllers\PageController::class, 'coredx'])->name('services.coredx');
 Route::get('/privacy', function () {
     return view('privacy');
 });
@@ -37,3 +38,4 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/cs/users/{id}/destroy', [App\Http\Controllers\cs\UserController::class, 'destroy'])->name('cs.users.destroy');
 
 });
+
