@@ -12,9 +12,6 @@
                 勤怠、プロジェクト、ワークフローから請求管理まで。<br>
                 バラバラだった社内業務を一元化する、オールインワン統合ビジネスポータル。
             </p>
-            <div style="background: rgba(255,255,255,0.15); display: inline-block; padding: 10px 25px; border-radius: 30px; font-weight: bold; font-size: 15px; margin-bottom: 40px;">
-                💡 本サービスは「IT導入補助金」対象ツールです
-            </div>
             
             <!-- メインシステムイメージ -->
             <div style="max-width: 900px; margin: 0 auto; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.3); border-radius: 12px; overflow: hidden; border: 4px solid rgba(255,255,255,0.2);">
