@@ -181,7 +181,7 @@
                         <div style="position: relative; background-color: #f1f5f9; border-bottom: 1px solid #e2e8f0;">
                             <img src="{{ asset('images/screenshot_tasks.png') }}" alt="CORE DX PORTAL タスク管理画面" style="width: 100%; height: 200px; object-fit: cover; display: block;">
                             <span style="position: absolute; top: 12px; left: 12px; background-color: #3b82f6; color: #ffffff; font-size: 11px; font-weight: bold; padding: 3px 10px; border-radius: 4px; text-transform: uppercase;">
-                                SaaS / 自社製品
+                                オンプレミス・受託プラン対応
                             </span>
                         </div>
 
@@ -192,13 +192,28 @@
                                     統合ビジネスポータル「CORE DX PORTAL」
                                 </h3>
                                 <p class="text-secondary lh-lg small mb-4">
-                                    中小企業・建築業に特化したオールインワン業務効率化ツールです。勤怠管理、カンバン型タスクボード、経フェ・稟議ワークフロー、インボイス対応の請求書発行までをシームレスに一元化し、バックオフィス業務の劇的な時間短縮を実現します。
+                                    中小企業・建築業に特化したオールインワン業務効率化ツールです。勤怠管理、カンバン型タスクボード、経費・稟議ワークフロー、インボイス対応の請求書発行までをシームレスに一元化し、バックオフィス業務の劇的な時間短縮を実現します[cite: 1]。ソースコード一式の提供および自社専用環境への構築に対応したプランです。
                                 </p>
+                                
+                                <!-- 追加：プランBの料金表セクション -->
+                                <div class="mb-4 p-3 style-price-box" style="background-color: #f8fafc; border-left: 4px solid #3b82f6; border-radius: 4px;">
+                                    <div class="fw-bold text-dark small mb-2"><i class="bi bi-tags-fill text-primary me-1"></i> 一括導入パッケージプラン</div>
+                                    <div class="d-flex align-items-baseline mb-1">
+                                        <span class="text-secondary small me-1">初期開発・導入費:</span>
+                                        <span class="fs-4 fw-extrabold text-primary fw-bold">5,000,000</span><span class="text-primary small fw-bold">円</span>
+                                        <span class="text-muted small ms-1">(税込)</span>
+                                    </div>
+                                    <div class="d-flex align-items-baseline text-muted small">
+                                        <span>月額保守運用費:</span>
+                                        <span class="fw-bold text-dark ms-1">50,000円 〜 100,000円</span>
+                                    </div>
+                                </div>
                                 
                                 <!-- タグ・補助金情報 -->
                                 <div class="mb-4">
                                     <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#インボイス対応</span>
                                     <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#工程・原価管理</span>
+                                    <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#自社専用環境構築可能</span>
                                 </div>
                             </div>
 
