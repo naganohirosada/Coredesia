@@ -119,8 +119,10 @@
 
     <section class="pb-5">
         <div class="container pb-5">
+            <!-- 全カードを共通の row グリッド内に配置します -->
             <div class="row g-4">
                 
+                <!-- 01 Webシステム開発 -->
                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card p-4 p-lg-5 h-100">
                         <div class="service-number">01</div>
@@ -137,6 +139,7 @@
                     </div>
                 </div>
 
+                <!-- 02 HP・LP制作・運用 -->
                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-card p-4 p-lg-5 h-100">
                         <div class="service-number">02</div>
@@ -153,6 +156,7 @@
                     </div>
                 </div>
 
+                <!-- 03 ITコンサルティング -->
                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-card p-4 p-lg-5 h-100">
                         <div class="service-number">03</div>
@@ -169,41 +173,43 @@
                     </div>
                 </div>
 
-            </div>
-        </div>
+                <!-- 04 CORE DX PORTAL サービスカード（グリッド内に統合） -->
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card h-100 d-flex flex-column" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
+                        
+                        <!-- カード上部：製品イメージ画像 -->
+                        <div style="position: relative; background-color: #f1f5f9; border-bottom: 1px solid #e2e8f0;">
+                            <img src="{{ asset('images/screenshot_tasks.png') }}" alt="CORE DX PORTAL タスク管理画面" style="width: 100%; height: 200px; object-fit: cover; display: block;">
+                            <span style="position: absolute; top: 12px; left: 12px; background-color: #3b82f6; color: #ffffff; font-size: 11px; font-weight: bold; padding: 3px 10px; border-radius: 4px; text-transform: uppercase;">
+                                SaaS / 自社製品
+                            </span>
+                        </div>
 
-        <!-- CORE DX PORTAL サービスカード -->
-        <div class="service-card" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s;">
-            
-            <!-- カード上部：製品イメージ画像（タスクボード画面などを配置） -->
-            <div style="position: relative; background-color: #f1f5f9; border-bottom: 1px solid #e2e8f0;">
-                <img src="{{ asset('images/screenshot_tasks.png') }}" alt="CORE DX PORTAL タスク管理画面" style="width: 100%; height: 200px; object-fit: cover; display: block;">
-                <span style="position: absolute; top: 12px; left: 12px; background-color: #3b82f6; color: #ffffff; font-size: 11px; font-weight: bold; padding: 3px 10px; border-radius: 4px; text-transform: uppercase;">
-                    SaaS / 自社製品
-                </span>
-            </div>
+                        <!-- カード下部：テキストとボタン（余白と構造を統一） -->
+                        <div class="p-4 p-lg-5 flex-grow-1 d-flex flex-column justify-content-between">
+                            <div>
+                                <h3 class="fw-bold mb-3" style="color: #1e3a8a;">
+                                    統合ビジネスポータル「CORE DX PORTAL」
+                                </h3>
+                                <p class="text-secondary lh-lg small mb-4">
+                                    中小企業・建築業に特化したオールインワン業務効率化ツールです。勤怠管理、カンバン型タスクボード、経フェ・稟議ワークフロー、インボイス対応の請求書発行までをシームレスに一元化し、バックオフィス業務の劇的な時間短縮を実現します。
+                                </p>
+                                
+                                <!-- タグ・補助金情報 -->
+                                <div class="mb-4">
+                                    <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#インボイス対応</span>
+                                    <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#工程・原価管理</span>
+                                </div>
+                            </div>
 
-            <!-- カード下部：テキストとボタン -->
-            <div style="padding: 25px; flex: 1; display: flex; flex-direction: column; justify-content: space-between;">
-                <div>
-                    <h3 style="font-size: 18px; font-weight: 700; color: #1e3a8a; margin: 0 0 12px 0;">
-                        統合ビジネスポータル「CORE DX PORTAL」
-                    </h3>
-                    <p style="font-size: 13.5px; color: #4a5568; line-height: 1.6; margin: 0 0 20px 0;">
-                        中小企業・建築業に特化したオールインワン業務効率化ツールです。勤怠管理、カンバン型タスクボード、経費・稟議ワークフロー、インボイス対応の請求書発行までをシームレスに一元化し、バックオフィス業務の劇的な時間短縮を実現します。
-                    </p>
-                    
-                    <!-- タグ・補助金情報 -->
-                    <div style="margin-bottom: 25px;">
-                        <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#インボイス対応</span>
-                        <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#工程・原価管理</span>
+                            <!-- 詳細ページへのリンクボタン -->
+                            <a href="{{ route('services.coredx') }}" class="btn btn-outline-primary w-100 fw-bold py-2" style="border: 2px solid #3b82f6; color: #3b82f6; border-radius: 6px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.backgroundColor='#3b82f6'; this.style.color='#ffffff';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#3b82f6';">
+                                サービス詳細・導入事例を見る
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <!-- 詳細ページへのリンクボタン -->
-                <a href="{{ route('services.coredx') }}" style="display: block; text-align: center; background-color: #ffffff; color: #3b82f6; border: 2px solid #3b82f6; font-weight: bold; padding: 10px 20px; border-radius: 6px; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.backgroundColor='#3b82f6'; this.style.color='#ffffff';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#3b82f6';">
-                    サービス詳細・導入事例を見る
-                </a>
             </div>
         </div>
     </section>

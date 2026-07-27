@@ -18,8 +18,11 @@
                 確かな技術と自由な発想で、アイデアをカタチにする。
             </p>
             <div class="d-flex justify-content-center gap-3">
-                <button class="btn btn-pop btn-lg px-5">サービス</button>
-                <button class="btn btn-outline-light btn-lg rounded-pill px-4">私たちについて</button>
+                <!-- 「サービス」ボタンをサービス一覧ページ（またはCORE DX PORTAL詳細）へのリンクに変更 -->
+                <a href="{{ route('services.coredx') }}" class="btn btn-pop btn-lg px-5 d-inline-flex align-items-center justify-content-center">サービス</a>
+                
+                <!-- 「私たちについて」ボタンをAboutページへのリンクに変更 -->
+                <a href="{{ url('/about') }}" class="btn btn-outline-light btn-lg rounded-pill px-4 d-inline-flex align-items-center justify-content-center">私たちについて</a>
             </div>
         </div>
     </header>
@@ -42,7 +45,7 @@
             <!-- 左側：プロダクトの紹介文 -->
             <div style="flex: 1; min-width: 320px;">
                 <div style="display: inline-block; background-color: #e0f2fe; color: #0369a1; font-size: 12px; font-weight: bold; padding: 4px 12px; border-radius: 20px; margin-bottom: 15px;">
-                    自社開発プロダクト / IT導入補助金対象ツール
+                    自社開発プロダクト
                 </div>
                 <h2 style="font-size: 28px; font-weight: 800; color: #1e3a8a; margin: 0 0 20px 0; line-height: 1.4;">
                     中小企業・建築業のバックオフィスを一元化<br>
@@ -75,11 +78,6 @@
             <div style="flex: 1.2; min-width: 320px;">
                 <div style="position: relative; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); border-radius: 10px; overflow: hidden; border: 1px solid #e2e8f0; background-color: #ffffff;">
                     <img src="{{ asset('images/screenshot_dashboard.png') }}" alt="CORE DX PORTAL ダッシュボード画面" style="width: 100%; height: auto; display: block;">
-                    
-                    <!-- 画像上の補助金アピールバッジ -->
-                    <div style="position: absolute; top: 15px; right: 15px; background-color: #ef4444; color: #ffffff; font-size: 12px; font-weight: bold; padding: 6px 14px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.15);">
-                        補助金活用で最大2/3補助！
-                    </div>
                 </div>
             </div>
 
