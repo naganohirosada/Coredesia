@@ -120,10 +120,6 @@
                 従業員5名規模の建築・施工事業者様において、プロジェクトデータと顧客管理を連動させた結果、<br>
                 <strong>毎月丸2日かかっていた手作業による締め・請求書発行業務が「わずか2時間」に短縮</strong>されました。
             </p>
-            <div style="display: inline-block; background: #ffffff; border-left: 6px solid #3b82f6; padding: 20px; text-align: left; border-radius: 0 8px 8px 0;">
-                <p style="margin: 0 0 5px 0; font-weight: bold; color: #1e3a8a; font-size: 16px;">💡 IT導入補助金の活用で、導入コストを大幅に抑えられます</p>
-                <p style="margin: 0; font-size: 13px; color: #64748b; line-height: 1.5;">株式会社CoredesiaはIT導入支援事業者です。補助金の交付申請からツールの定着まで手厚く伴走サポートいたします。</p>
-            </div>
         </div>
     </div>
 

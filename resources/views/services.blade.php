@@ -197,9 +197,6 @@
                     <div style="margin-bottom: 25px;">
                         <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#インボイス対応</span>
                         <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#工程・原価管理</span>
-                        <div style="font-size: 12px; color: #ef4444; font-weight: bold; margin-top: 8px; display: flex; align-items: center;">
-                            <span style="margin-right: 4px;">🎁</span> IT導入補助金活用で最大2/3の補助対象
-                        </div>
                     </div>
                 </div>
 
