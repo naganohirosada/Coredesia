@@ -173,47 +173,46 @@
                     </div>
                 </div>
 
-                <!-- 04 CORE DX PORTAL サービスカード（グリッド内に統合） -->
+                <!-- 04 CORE DX PORTAL サービスカード -->
                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-card h-100 d-flex flex-column" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s;">
                         
                         <!-- カード上部：製品イメージ画像 -->
                         <div style="position: relative; background-color: #f1f5f9; border-bottom: 1px solid #e2e8f0;">
                             <img src="{{ asset('images/screenshot_tasks.png') }}" alt="CORE DX PORTAL タスク管理画面" style="width: 100%; height: 200px; object-fit: cover; display: block;">
-                            <span style="position: absolute; top: 12px; left: 12px; background-color: #3b82f6; color: #ffffff; font-size: 11px; font-weight: bold; padding: 3px 10px; border-radius: 4px; text-transform: uppercase;">
-                                オンプレミス・受託プラン対応
+                            <span style="position: absolute; top: 12px; left: 12px; background-color: #2563eb; color: #ffffff; font-size: 11px; font-weight: bold; padding: 3px 10px; border-radius: 4px; text-transform: uppercase;">
+                                継続開発・ラボ型プラン
                             </span>
                         </div>
 
-                        <!-- カード下部：テキストとボタン（余白と構造を統一） -->
+                        <!-- カード下部：テキストとボタン -->
                         <div class="p-4 p-lg-5 flex-grow-1 d-flex flex-column justify-content-between">
                             <div>
                                 <h3 class="fw-bold mb-3" style="color: #1e3a8a;">
                                     統合ビジネスポータル「CORE DX PORTAL」
                                 </h3>
                                 <p class="text-secondary lh-lg small mb-4">
-                                    中小企業・建築業に特化したオールインワン業務効率化ツールです。勤怠管理、カンバン型タスクボード、経費・稟議ワークフロー、インボイス対応の請求書発行までをシームレスに一元化し、バックオフィス業務の劇的な時間短縮を実現します[cite: 1]。ソースコード一式の提供および自社専用環境への構築に対応したプランです。
+                                    中小企業・建築業に特化したオールインワン業務効率化ツールです。勤怠管理、カンバン型タスクボード、経費・稟議ワークフロー、インボイス対応の請求書発行までをシームレスに一元化し、バックオフィス業務の劇的な時間短縮を実現します[cite: 1]。専属のエンジニアリソースを確保し、貴社の業務ルールに合わせて継続的にカスタマイズ・機能拡張を行っていく準委任型のプランです。
                                 </p>
                                 
-                                <!-- 追加：プランBの料金表セクション -->
-                                <div class="mb-4 p-3 style-price-box" style="background-color: #f8fafc; border-left: 4px solid #3b82f6; border-radius: 4px;">
-                                    <div class="fw-bold text-dark small mb-2"><i class="bi bi-tags-fill text-primary me-1"></i> 一括導入パッケージプラン</div>
+                                <!-- 変更：準委任型（ラボ型）の料金表セクション -->
+                                <div class="mb-4 p-3 style-price-box" style="background-color: #f8fafc; border-left: 4px solid #2563eb; border-radius: 4px;">
+                                    <div class="fw-bold text-dark small mb-2"><i class="bi bi-person-workspace text-primary me-1"></i> 月額定額開発（ラボ型）プラン</div>
                                     <div class="d-flex align-items-baseline mb-1">
-                                        <span class="text-secondary small me-1">初期開発・導入費:</span>
-                                        <span class="fs-4 fw-extrabold text-primary fw-bold">5,000,000</span><span class="text-primary small fw-bold">円</span>
-                                        <span class="text-muted small ms-1">(税込)</span>
+                                        <span class="text-secondary small me-2">基本料金 (目安):</span>
+                                        <span class="fs-4 fw-extrabold text-primary fw-bold">600,000 〜 1,200,000</span><span class="text-primary small fw-bold">円</span>
+                                        <span class="text-muted small ms-1"> / 人月 (税込)</span>
                                     </div>
-                                    <div class="d-flex align-items-baseline text-muted small">
-                                        <span>月額保守運用費:</span>
-                                        <span class="fw-bold text-dark ms-1">50,000円 〜 100,000円</span>
+                                    <div class="text-muted small" style="font-size: 11px; line-height: 1.4;">
+                                        ※確保するエンジニアのスキル・稼働率（人月分）や、ご要望の改修ボリュームに応じて柔軟に体制を変動・ご提案可能です。
                                     </div>
                                 </div>
                                 
                                 <!-- タグ・補助金情報 -->
                                 <div class="mb-4">
                                     <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#インボイス対応</span>
-                                    <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#工程・原価管理</span>
-                                    <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#自社専用環境構築可能</span>
+                                    <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#仕様変更に柔軟対応</span>
+                                    <span style="display: inline-block; background-color: #f1f5f9; color: #4a5568; font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 5px;">#専属チーム体制</span>
                                 </div>
                             </div>
 

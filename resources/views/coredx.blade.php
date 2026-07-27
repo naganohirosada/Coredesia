@@ -120,5 +120,40 @@
         </div>
     </div>
 
+    <!-- 追加：料金プラン（IT事業者登録対応パッケージ） -->
+    <div class="pricing-section" style="padding: 80px 20px; max-width: 900px; margin: 0 auto; text-align: center;">
+        <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 20px; position: relative; display: inline-block; padding-bottom: 10px;">
+            プラン・導入費用
+            <span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 60px; height: 4px; background-color: #3b82f6;"></span>
+        </h2>
+        <p style="font-size: 15px; color: #64748b; margin-bottom: 40px;">貴社の社内ルールや実業務のオペレーションに合わせて、専属体制で柔軟にカスタム・最適化を行います。</p>
+
+        <div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 12px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); overflow: hidden; max-width: 550px; margin: 0 auto; text-align: left;">
+            <div style="background-color: #1e3a8a; color: #ffffff; padding: 20px; text-align: center;">
+                <span style="font-size: 11px; font-weight: bold; background: rgba(255,255,255,0.2); padding: 3px 10px; border-radius: 4px; text-transform: uppercase; letter-spacing: 1px;">準委任型・定額カスタマイズ</span>
+                <h3 style="font-size: 20px; font-weight: 700; margin: 10px 0 0 0;">初期導入＆個別フィット開発パック</h3>
+            </div>
+            
+            <div style="padding: 30px;">
+                <div style="text-align: center; margin-bottom: 30px; padding-bottom: 25px; border-bottom: 1px solid #f1f5f9;">
+                    <p style="font-size: 13px; color: #64748b; margin: 0 0 5px 0;">基本月額料金（目安）</p>
+                    <div style="display: flex; align-items: baseline; justify-content: center;">
+                        <span style="font-size: 32px; font-weight: 800; color: #1e3a8a;">600,000 〜 1,200,000</span>
+                        <span style="font-size: 14px; font-weight: bold; color: #1e3a8a; margin-left: 4px;">円</span>
+                        <span style="font-size: 13px; color: #64748b; margin-left: 4px;">/ 人月 (税込)</span>
+                    </div>
+                </div>
+
+                <h4 style="font-size: 14px; font-weight: 700; margin: 0 0 15px 0; color: #334155;">📦 パッケージ内容：</h4>
+                <ul style="font-size: 14px; color: #475569; padding-left: 20px; margin: 0 0 30px 0; line-height: 2;">
+                    <li>「CORE DX PORTAL」ベースシステム一式の提供</li>
+                    <li>貴社の業務フローに合わせた管理画面・DBの最適化構成</li>
+                    <li>専属エンジニアチームによる柔軟な機能拡張・仕様変更対応</li>
+                    <li>インフラ構築・外部API連携サポート</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 </div>
 @endsection
