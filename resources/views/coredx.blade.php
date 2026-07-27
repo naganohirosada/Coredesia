@@ -112,7 +112,7 @@
     <!-- 導入効果（事例ベース） -->
     <div class="effect-section" style="padding: 60px 20px; background-color: #f1f5f9; text-align: center;">
         <div style="max-width: 800px; margin: 0 auto;">
-            <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 20px;">圧倒的な業務削減効果の実績</h2>
+            <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 20px;">圧倒的な業務削減効果の実実績</h2>
             <p style="font-size: 15px; color: #4a5568; margin-bottom: 30px; line-height: 1.6;">
                 従業員5名規模の建築・施工事業者様において、プロジェクトデータと顧客管理を連動させた結果、<br>
                 <strong>毎月丸2日かかっていた手作業による締め・請求書発行業務が「わずか2時間」に短縮</strong>されました。
@@ -120,7 +120,7 @@
         </div>
     </div>
 
-    <!-- 追加：料金プラン（IT事業者登録対応パッケージ） -->
+    <!-- 料金プラン（IT事業者登録対応パッケージ） -->
     <div class="pricing-section" style="padding: 80px 20px; max-width: 900px; margin: 0 auto; text-align: center;">
         <h2 style="font-size: 24px; font-weight: 700; margin-bottom: 20px; position: relative; display: inline-block; padding-bottom: 10px;">
             プラン・導入費用
@@ -128,7 +128,7 @@
         </h2>
         <p style="font-size: 15px; color: #64748b; margin-bottom: 40px;">貴社の社内ルールや実業務のオペレーションに合わせて、専属体制で柔軟にカスタム・最適化を行います。</p>
 
-        <div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 12px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); overflow: hidden; max-width: 550px; margin: 0 auto; text-align: left;">
+        <div style="background: #ffffff; border: 2px solid #e2e8f0; border-radius: 12px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); overflow: hidden; max-width: 650px; margin: 0 auto; text-align: left;">
             <div style="background-color: #1e3a8a; color: #ffffff; padding: 20px; text-align: center;">
                 <span style="font-size: 11px; font-weight: bold; background: rgba(255,255,255,0.2); padding: 3px 10px; border-radius: 4px; text-transform: uppercase; letter-spacing: 1px;">準委任型・定額カスタマイズ</span>
                 <h3 style="font-size: 20px; font-weight: 700; margin: 10px 0 0 0;">初期導入＆個別フィット開発パック</h3>
@@ -151,6 +151,49 @@
                     <li>専属エンジニアチームによる柔軟な機能拡張・仕様変更対応</li>
                     <li>インフラ構築・外部API連携サポート</li>
                 </ul>
+
+                <!-- 💡 追加：補助金要件対応のアカウント制限仕様セクション -->
+                <div style="margin-top: 25px; padding-top: 25px; border-top: 2px dashed #e2e8f0;">
+                    <h4 style="font-size: 14px; font-weight: 700; margin: 0 0 12px 0; color: #1e3a8a; display: flex; align-items: center;">
+                        <span style="background-color: #e0f2fe; color: #0369a1; font-size: 11px; padding: 2px 6px; border-radius: 4px; margin-right: 8px;">補助金申請対応</span>
+                        アカウント数に関する仕様・制限事項
+                    </h4>
+                    <p style="font-size: 12px; color: #64748b; margin: 0 0 15px 0; line-height: 1.5;">
+                        適正な交付申請および経費算出の明確化に対応するため、本システムで発行・連携できるアカウント数には上限が定められており、<strong>アカウント数が無制限となる契約プランは存在いたしません。</strong>
+                    </p>
+                    
+                    <table style="width: 100%; border-collapse: collapse; font-size: 13px; color: #334155; margin-bottom: 10px;">
+                        <thead>
+                            <tr style="background-color: #f8fafc;">
+                                <th style="border: 1px solid #e2e8f0; padding: 10px; text-align: left; font-weight: 700; width: 35%;">区分</th>
+                                <th style="border: 1px solid #e2e8f0; padding: 10px; text-align: left; font-weight: 700;">詳細仕様・制限上限数</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="border: 1px solid #e2e8f0; padding: 10px; font-weight: bold; background-color: #fafafa;">社内（発注側）</td>
+                                <td style="border: 1px solid #e2e8f0; padding: 10px; line-height: 1.4;">
+                                    基本パック内での発行上限：<span style="color: #df2020; font-weight: bold;">最大 50 アカウント</span><br>
+                                    <span style="font-size: 11px; color: #64748b;">※社内スタッフの利用登録枠となります。</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #e2e8f0; padding: 10px; font-weight: bold; background-color: #fafafa;">外部（受注者側）</td>
+                                <td style="border: 1px solid #e2e8f0; padding: 10px; line-height: 1.4;">
+                                    連携サプライヤー招待上限：<span style="color: #df2020; font-weight: bold;">最大 100 アカウント</span><br>
+                                    <span style="font-size: 11px; color: #64748b;">※発注業務を外部連携するために発行するID枠です。</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #e2e8f0; padding: 10px; font-weight: bold; background-color: #fafafa;">上限超過時の挙動</td>
+                                <td style="border: 1px solid #e2e8f0; padding: 10px; font-size: 12px; color: #475569; line-height: 1.4;">
+                                    上記の上限値に達した段階でシステムが新規発行を自動ロックします。無制限での超過発行はできません。上限数を拡張する場合は、事前に個別見積もりによる有償の契約変更手続きが必要です。
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
         </div>
     </div>
