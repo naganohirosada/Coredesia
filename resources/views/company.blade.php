@@ -97,15 +97,15 @@
                         <tr class="border-bottom">
                             <th class="py-4 text-secondary">所在地</th>
                             <td class="py-4">
-                                〒813-0017 福岡市東区香椎照葉6-2-51 <br>
-                                <span class="text-muted">オーシャン＆フォレストタワーレジデンス EAST 3702号室</span>
+                                〒812-0061 福岡県福岡市東区筥松2-6-9<br>
+                                <span class="text-muted">バアウ・ハウス・カミング 2-c</span>
                             </td>
                         </tr>
                         <tr class="border-bottom">
                             <th class="py-4 text-secondary">親会社</th>
                             <td class="py-4">
                                 <a href="https://www.ko-ua.co.jp/" target="_blank" class="fw-bold text-decoration-none text-info">株式会社興亜</a><br>
-                                <span class="small text-muted">〒810-0041 福岡市東区筥松2丁目6番9号</span>
+                                <span class="small text-muted">〒811-2112 福岡県糟屋郡須恵町大字植木字中野1883-1</span>
                             </td>
                         </tr>
                         <tr>
@@ -116,6 +116,7 @@
                                     <li>・アプリケーション開発</li>
                                     <li>・HP・LP制作・運用</li>
                                     <li>・ITコンサルティング</li>
+                                    <li>・採用代行</li>
                                 </ul>
                             </td>
                         </tr>
