@@ -48,7 +48,7 @@
                 <div class="col-md-6" data-aos="fade-left">
                     <div class="ps-md-4">
                         <h3 class="fw-bold mb-0 display-6">長野 弘禎</h3>
-                        <p class="text-secondary mb-4">Hiroyoshi Nagano / CEO & Full Stack Engineer</p>
+                        <p class="text-secondary mb-4">Hirosada Nagano / CEO & Full Stack Engineer</p>
                         
                         <div class="mb-4">
                             <h4 class="fs-6 fw-bold text-info border-bottom border-info border-2 d-inline-block pb-1 mb-3">Background</h4>
