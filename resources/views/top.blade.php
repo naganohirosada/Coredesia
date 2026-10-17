@@ -80,8 +80,7 @@
 <p style="margin: 0 0 28px; font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 24px; color: #E9C77B">— between the core and the sky</p>
 <p style="margin: 0; font-family: 'Zen Old Mincho', serif; font-size: 26px; line-height: 2.1; max-width: 520px; text-shadow: 0 0 18px rgba(15,26,61,0.6)">確かな技術と自由な発想で、<br>アイデアをカタチにする。</p>
 <div style="margin-top: 48px; display: flex; gap: 20px; align-items: center; flex-wrap: wrap">
-<a href="{{ route('services.coredx') }}" style="text-decoration: none; background: #F3F1EA; color: #0F1A3D; padding: 16px 30px; border-radius: 999px; font-weight: 700">CORE DX PORTAL</a>
-<a href="{{ route('services') }}" style="font-size: 15px">事業内容を見る</a>
+<a href="{{ route('services') }}" style="text-decoration: none; background: #F3F1EA; color: #0F1A3D; padding: 16px 30px; border-radius: 999px; font-weight: 700">事業内容を見る</a>
 </div>
 </div>
 <h1 class="l-vert" style="margin: 0; writing-mode: vertical-rl; font-family: 'Zen Old Mincho', serif; font-weight: 900; font-size: 64px; line-height: 1.45; letter-spacing: 0.1em; height: 640px; text-shadow: 0 0 24px rgba(255,236,200,0.55), 0 0 2px rgba(255,255,255,0.8)">想いの「芯」を、<br>ワクワクする<br>「冒険」へ。</h1>
