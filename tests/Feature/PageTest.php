@@ -31,10 +31,36 @@ class PageTest extends TestCase
             ->assertSee('採用支援（RPO）について');
     }
 
-    public function test_existing_pages_are_still_available(): void
+    public function test_sub_pages_use_new_design(): void
     {
         foreach (['/about', '/services', '/services/core-dx-portal', '/company'] as $path) {
-            $this->get($path)->assertOk();
+            $this->get($path)
+                ->assertOk()
+                ->assertSee('css/site.css', false);
         }
+    }
+
+    public function test_services_page_lists_all_services(): void
+    {
+        $this->get('/services')
+            ->assertSee('システム開発')
+            ->assertSee('採用支援')
+            ->assertDontSee('LAB PLAN');
+    }
+
+    public function test_coredx_page_shows_standard_price(): void
+    {
+        $this->get('/services/core-dx-portal')
+            ->assertSee('30,000円／月')
+            ->assertSee('200,000円');
+    }
+
+    public function test_company_page_hides_placeholders(): void
+    {
+        $this->get('/company')
+            ->assertSee('バアウ・ハウス・カミング 2-1-c')
+            ->assertSee('1995年（平成7年）2月16日')
+            ->assertDontSee('[電話番号]')
+            ->assertDontSee('[資本金]');
     }
 }
