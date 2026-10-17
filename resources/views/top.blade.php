@@ -86,7 +86,7 @@
 <h1 class="l-vert" style="margin: 0; writing-mode: vertical-rl; font-family: 'Zen Old Mincho', serif; font-weight: 900; font-size: 64px; line-height: 1.45; letter-spacing: 0.1em; height: 640px; text-shadow: 0 0 24px rgba(255,236,200,0.55), 0 0 2px rgba(255,255,255,0.8)">想いの「芯」を、<br>ワクワクする<br>「冒険」へ。</h1>
 </div>
 
-<svg viewBox="0 0 1440 400" preserveAspectRatio="none" aria-hidden="true" style="position: relative; display: block; width: 100%; height: 360px; margin-top: -60px">
+<svg viewBox="0 0 1440 400" preserveAspectRatio="none" aria-hidden="true" style="position: relative; display: block; width: 100%; height: 360px; margin-top: -60px; pointer-events: none">
 <defs>
 <filter id="lHz" x="-10%" y="-100%" width="120%" height="300%"><feGaussianBlur stdDeviation="18"/></filter>
 <linearGradient id="lM1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8C6FB4"/><stop offset="1" stop-color="#4E4A98"/></linearGradient>
