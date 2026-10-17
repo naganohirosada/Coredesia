@@ -48,5 +48,34 @@
         @yield('content')
     </main>
     @include('partials.site-footer')
+    <script>
+        // ハンバーガーメニューの開閉（狭い画面のみボタンが表示される）
+        (function () {
+            var btn = document.querySelector('.l-burger');
+            var nav = document.getElementById('l-nav');
+            if (!btn || !nav) return;
+            function setOpen(open) {
+                btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+                btn.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
+                nav.classList.toggle('is-open', open);
+                document.body.classList.toggle('is-menu-open', open);
+            }
+            btn.addEventListener('click', function () {
+                setOpen(btn.getAttribute('aria-expanded') !== 'true');
+            });
+            nav.addEventListener('click', function (e) {
+                if (e.target.closest('a')) setOpen(false);
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && nav.classList.contains('is-open')) {
+                    setOpen(false);
+                    btn.focus();
+                }
+            });
+            window.matchMedia('(min-width: 901px)').addEventListener('change', function (mq) {
+                if (mq.matches) setOpen(false);
+            });
+        })();
+    </script>
 </body>
 </html>

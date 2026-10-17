@@ -40,6 +40,15 @@ class PageTest extends TestCase
         }
     }
 
+    public function test_header_has_hamburger_menu(): void
+    {
+        foreach (['/', '/company'] as $path) {
+            $this->get($path)
+                ->assertSee('class="l-burger" aria-controls="l-nav" aria-expanded="false"', false)
+                ->assertSee('id="l-nav"', false);
+        }
+    }
+
     public function test_services_page_lists_all_services(): void
     {
         $this->get('/services')
