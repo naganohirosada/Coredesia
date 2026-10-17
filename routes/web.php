@@ -8,8 +8,9 @@ Route::get('/about', [App\Http\Controllers\PageController::class, 'about'])->nam
 Route::get('/contact', [App\Http\Controllers\PageController::class, 'contact'])->name('contact');
 Route::get('/services', [App\Http\Controllers\PageController::class, 'services'])->name('services');
 Route::get('/company', [App\Http\Controllers\PageController::class, 'company'])->name('company');
-Route::post('/contact/confirm', [App\Http\Controllers\ContactController::class, 'confirm'])->name('contact.confirm');
-Route::post('/contact/send', [App\Http\Controllers\ContactController::class, 'send'])->name('contact.send');
+// 連続送信対策として、1分あたりの送信回数を制限する
+Route::post('/contact/confirm', [App\Http\Controllers\ContactController::class, 'confirm'])->middleware('throttle:10,1')->name('contact.confirm');
+Route::post('/contact/send', [App\Http\Controllers\ContactController::class, 'send'])->middleware('throttle:5,1')->name('contact.send');
 Route::get('/services/core-dx-portal', [App\Http\Controllers\PageController::class, 'coredx'])->name('services.coredx');
 Route::get('/privacy', function () {
     return view('privacy');

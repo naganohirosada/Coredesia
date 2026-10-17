@@ -110,12 +110,7 @@
                             <div class="col-12">
                                 <div class="confirm-label">お問い合わせ項目</div>
                                 <div class="confirm-value">
-                                    @switch($inputs['subject'])
-                                        @case('system') Webシステム・アプリ開発について @break
-                                        @case('website') HP・LP制作について @break
-                                        @case('consulting') ITコンサルティングについて @break
-                                        @default その他のお問い合わせ
-                                    @endswitch
+                                    {{ \App\Models\Contact::subjectLabel($inputs['subject']) }}
                                 </div>
                             </div>
 

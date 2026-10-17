@@ -1,5 +1,7 @@
 <div style="white-space: pre-wrap; font-family: sans-serif; line-height: 1.6;">
-    {{ $inputs['company'] ?? 'なし' }}
+@if (!empty($inputs['company']))
+    {{ $inputs['company'] }}
+@endif
     {{ $inputs['name'] }} 様
 
     株式会社Coredesia（コアデシア）へのお問い合わせ、
@@ -12,7 +14,7 @@
     ■お名前：{{ $inputs['name'] }}
     ■貴社名：{{ $inputs['company'] ?? 'なし' }}
     ■メールアドレス：{{ $inputs['email'] }}
-    ■お問い合わせ項目：{{ $inputs['subject'] }}
+    ■お問い合わせ項目：{{ \App\Models\Contact::subjectLabel($inputs['subject']) }}
     ■お問い合わせ内容：
     {{ $inputs['message'] }}
     ---
@@ -21,6 +23,6 @@
 
     ━━━━━━━━━━━━━━━━━━━━━
     株式会社Coredesia
-    URL: https://coredesia.jp
+    URL: https://coredesiainc.com
     ━━━━━━━━━━━━━━━━━━━━━
 </div>

@@ -20,12 +20,7 @@
     {{ $inputs['email'] }}
 
     【お問い合わせ項目】
-    @switch($inputs['subject'])
-        @case('system') Webシステム・アプリ開発 @break
-        @case('website') HP・LP制作 @break
-        @case('consulting') ITコンサルティング @break
-        @default その他
-    @endswitch
+    {{ \App\Models\Contact::subjectLabel($inputs['subject']) }}
 
     【メッセージ内容】
     {{ $inputs['message'] }}
