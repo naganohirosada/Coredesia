@@ -1,7 +1,7 @@
 @extends('layouts.site')
 
 @section('title', '株式会社Coredesia（コアデシア）｜想いの「芯」を、ワクワクする「冒険」へ。')
-@section('description', '株式会社Coredesia（コアデシア）は、福岡の興亜グループのテックカンパニーです。システム開発、HP・LP制作、ITコンサルティング、採用支援、自社プロダクト「CORE DX PORTAL」を提供しています。')
+@section('description', '株式会社Coredesia（コアデシア）は、福岡の興亜グループのテックカンパニーです。Webシステム開発・アプリケーション開発、HP・LP制作、ITコンサルティング、採用支援、自社プロダクト「CORE DX PORTAL」を提供しています。')
 
 @section('content')
 <section id="top" class="l-sky" style="position: relative; overflow: hidden">
@@ -126,7 +126,7 @@
 <div class="l-svc">
 <article style="border: 1px solid rgba(233,199,123,0.45); border-radius: 4px; padding: 36px 28px; background: rgba(30,42,107,0.35); display: flex; flex-direction: column; gap: 14px">
 <span style="font-family: 'Zen Old Mincho', serif; font-size: 44px; color: #E9C77B; line-height: 1">一</span>
-<h3 style="margin: 0; font-family: 'Zen Old Mincho', serif; font-size: 21px">システム開発</h3>
+<h3 style="margin: 0; font-family: 'Zen Old Mincho', serif; font-size: 21px">Webシステム開発・アプリケーション開発</h3>
 <p style="margin: 0; font-size: 14px; line-height: 1.95; color: #C5C9E0">業務システム、Webサービス、スマートフォンアプリまで。システム開発全般をお受けします。</p>
 </article>
 <article style="border: 1px solid rgba(233,199,123,0.45); border-radius: 4px; padding: 36px 28px; background: rgba(30,42,107,0.35); display: flex; flex-direction: column; gap: 14px">

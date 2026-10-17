@@ -123,8 +123,8 @@
 <li>既存データの移行代行（CSV取込機能の提供と操作説明は初期設定費に含みます）</li>
 </ul>
 <div style="border: 1px solid rgba(233,199,123,0.5); padding: 24px 28px; background: rgba(30,42,107,0.35)">
-<p style="margin: 0 0 12px; font-size: 15px; line-height: 1.9">貴社専用のカスタマイズや機能拡張をご希望の場合は、別契約の「システム開発」としてご相談ください。</p>
-<a href="{{ route('services') }}" style="font-size: 14px; color: #E9C77B">システム開発を見る →</a>
+<p style="margin: 0 0 12px; font-size: 15px; line-height: 1.9">貴社専用のカスタマイズや機能拡張をご希望の場合は、別契約の「Webシステム開発・アプリケーション開発」としてご相談ください。</p>
+<a href="{{ route('services') }}" style="font-size: 14px; color: #E9C77B">Webシステム開発・アプリケーション開発を見る →</a>
 </div>
 </div>
 </div>
@@ -136,7 +136,7 @@
 <div style="border-top: 1px solid rgba(233,199,123,0.45)">
 <details style="border-bottom: 1px solid rgba(233,199,123,0.3); padding: 22px 4px" open><summary style="cursor: pointer; font-weight: 700; font-size: 16px">Q. 自社でサーバーを用意する必要はありますか？</summary><p style="margin: 14px 0 0; font-size: 14px; line-height: 2; color: #C5C9E0">不要です。Webブラウザからご利用いただけます。</p></details>
 <details style="border-bottom: 1px solid rgba(233,199,123,0.3); padding: 22px 4px"><summary style="cursor: pointer; font-weight: 700; font-size: 16px">Q. 何名まで利用できますか？</summary><p style="margin: 14px 0 0; font-size: 14px; line-height: 2; color: #C5C9E0">基本利用料に社内10IDが含まれ、1ID単位で追加できます。上限は1契約あたり50IDです。上限に達すると新しいアカウントは追加できません。</p></details>
-<details style="border-bottom: 1px solid rgba(233,199,123,0.3); padding: 22px 4px"><summary style="cursor: pointer; font-weight: 700; font-size: 16px">Q. 自社の業務に合わせて画面を変更できますか？</summary><p style="margin: 14px 0 0; font-size: 14px; line-height: 2; color: #C5C9E0">Cloud Standardは標準機能のみのご提供です。カスタマイズをご希望の場合は、別契約のシステム開発としてご相談ください。</p></details>
+<details style="border-bottom: 1px solid rgba(233,199,123,0.3); padding: 22px 4px"><summary style="cursor: pointer; font-weight: 700; font-size: 16px">Q. 自社の業務に合わせて画面を変更できますか？</summary><p style="margin: 14px 0 0; font-size: 14px; line-height: 2; color: #C5C9E0">Cloud Standardは標準機能のみのご提供です。カスタマイズをご希望の場合は、別契約のWebシステム開発・アプリケーション開発としてご相談ください。</p></details>
 <details style="border-bottom: 1px solid rgba(233,199,123,0.3); padding: 22px 4px"><summary style="cursor: pointer; font-weight: 700; font-size: 16px">Q. 今使っている顧客データは移せますか？</summary><p style="margin: 14px 0 0; font-size: 14px; line-height: 2; color: #C5C9E0">顧客（取引先）データはCSVで一括取込できます。取込機能の提供と操作説明は初期設定費に含まれます。移行作業の代行は含まれません。</p></details>
 <details style="border-bottom: 1px solid rgba(233,199,123,0.3); padding: 22px 4px"><summary style="cursor: pointer; font-weight: 700; font-size: 16px">Q. 契約期間の縛りはありますか？</summary><p style="margin: 14px 0 0; font-size: 14px; line-height: 2; color: #C5C9E0">最低利用期間は12か月で、月額料金は年単位のご契約です。</p></details>
 <details style="border-bottom: 1px solid rgba(233,199,123,0.3); padding: 22px 4px"><summary style="cursor: pointer; font-weight: 700; font-size: 16px">Q. 法改正があったときの対応は有料ですか？</summary><p style="margin: 14px 0 0; font-size: 14px; line-height: 2; color: #C5C9E0">インボイス制度などの法令改正への対応は、全契約者に追加費用なしで提供します。</p></details>

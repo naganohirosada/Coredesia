@@ -1,7 +1,7 @@
 @extends('layouts.site')
 
 @section('title', 'お問い合わせ｜株式会社Coredesia')
-@section('description', 'システム開発、CORE DX PORTALの導入、HP・LP制作、ITコンサルティング、採用支援のご相談は、株式会社Coredesiaのお問い合わせフォームから。')
+@section('description', 'Webシステム開発・アプリケーション開発、CORE DX PORTALの導入、HP・LP制作、ITコンサルティング、採用支援のご相談は、株式会社Coredesiaのお問い合わせフォームから。')
 
 @section('content')
 @include('partials.sub-hero', ['en' => 'Contact', 'title' => 'お問い合わせ', 'crumbs' => ['お問い合わせ' => null]])
@@ -12,7 +12,7 @@
         <li style="padding: 14px; border: 1px solid rgba(233,199,123,0.45); color: #C5C9E0">2　確認</li>
         <li style="padding: 14px; border: 1px solid rgba(233,199,123,0.45); color: #C5C9E0">3　完了</li>
     </ol>
-    <p style="margin: 0 0 40px; font-size: 15px; line-height: 2.1; color: #C5C9E0">システム開発、CORE DX PORTALの導入、HP制作などのご相談は、以下のフォームからお送りください。内容を確認のうえ、担当者よりご連絡します。</p>
+    <p style="margin: 0 0 40px; font-size: 15px; line-height: 2.1; color: #C5C9E0">Webシステム開発・アプリケーション開発、CORE DX PORTALの導入、HP制作などのご相談は、以下のフォームからお送りください。内容を確認のうえ、担当者よりご連絡します。</p>
 
     @if ($errors->any())
         <div role="alert" style="margin: 0 0 32px; padding: 16px 20px; border: 1px solid #FF8A8A; color: #FFB4B4; font-size: 14px">入力内容に誤りがあります。各項目のメッセージをご確認ください。</div>
