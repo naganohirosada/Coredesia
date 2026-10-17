@@ -18,6 +18,7 @@ class Contact extends Model
         'coredx' => 'CORE DX PORTALについて',
         'website' => 'HP・LP制作について',
         'consulting' => 'ITコンサルティングについて',
+        'rpo' => '採用支援（RPO）について',
         'other' => 'その他のお問い合わせ',
     ];
 

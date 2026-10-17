@@ -14,7 +14,7 @@ Route::post('/contact/send', [App\Http\Controllers\ContactController::class, 'se
 Route::get('/services/core-dx-portal', [App\Http\Controllers\PageController::class, 'coredx'])->name('services.coredx');
 Route::get('/privacy', function () {
     return view('privacy');
-});
+})->name('privacy');
 
 
 // CS画面

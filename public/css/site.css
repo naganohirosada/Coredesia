@@ -1,0 +1,78 @@
+/* 株式会社Coredesia サイト共通スタイル（案L「黄昏と星」） */
+body{margin:0;background:#0F1A3D;color:#F3F1EA;font-family:'Zen Kaku Gothic New',sans-serif}
+a{color:#F3F1EA}a:hover{color:#E9C77B}
+.l-skip{position:absolute;left:-9999px;top:8px;z-index:100;background:#E9C77B;color:#0F1A3D;padding:10px 16px}
+.l-skip:focus{left:8px}
+
+/* 下層ページの見出し帯 */
+.l-sky-sub{background:linear-gradient(180deg,#040A2C 0%,#0A1C66 22%,#1432A0 42%,#2448C4 56%,#4A4FC6 66%,#7A54BC 75%,#B45EA6 84%,#E07894 92%,#F59B86 100%);background-size:100% 150%;animation:l-dusk 30s ease-in-out infinite alternate}
+
+/* 共通ヘッダー */
+.l-header{position:relative;max-width:1280px;margin:0 auto;padding:26px 32px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.l-logo{font-family:Montserrat,sans-serif;font-weight:700;font-size:22px;letter-spacing:0.12em;text-decoration:none}
+.l-nav{display:flex;gap:28px;align-items:center;flex-wrap:wrap;font-size:14px;letter-spacing:0.06em}
+.l-nav a{text-decoration:none}
+.l-nav a[aria-current="page"]{color:#E9C77B}
+.l-nav .l-nav-cta{border:1px solid #E9C77B;color:#E9C77B;padding:12px 22px;border-radius:999px}
+.l-nav .l-nav-cta[aria-current="page"]{background:#E9C77B;color:#0F1A3D}
+@media (max-width:640px){.l-nav{gap:14px 20px}}
+
+/* 共通フッター */
+.l-footer{max-width:1280px;margin:0 auto;padding:56px 32px 40px;font-size:13px;color:#C5C9E0;border-top:1px solid rgba(233,199,123,0.2)}
+.l-foot{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr);gap:40px}
+.l-footer a{color:#C5C9E0}
+@media (max-width:900px){.l-foot{grid-template-columns:repeat(1,minmax(0,1fr));gap:32px}.l-h1{font-size:34px !important}}
+
+/* フォーム */
+.l-row{display:grid;grid-template-columns:240px minmax(0,1fr);gap:24px;padding:28px 0;border-bottom:1px solid rgba(233,199,123,0.25)}
+.l-in{width:100%;box-sizing:border-box;background:rgba(15,26,61,0.6);border:1px solid rgba(233,199,123,0.45);color:#F3F1EA;font:inherit;font-size:16px;padding:14px 16px;border-radius:4px}
+.l-in:focus{outline:2px solid #E9C77B;outline-offset:1px}
+.l-in.is-invalid{border-color:#FF8A8A}
+.l-err{margin:8px 0 0;font-size:13px;color:#FFB4B4}
+.l-req{display:inline-block;margin-left:10px;font-size:11px;padding:2px 8px;background:#E9C77B;color:#0F1A3D;border-radius:2px;vertical-align:middle}
+.l-opt{display:inline-block;margin-left:10px;font-size:11px;padding:2px 8px;border:1px solid #C5C9E0;color:#C5C9E0;border-radius:2px;vertical-align:middle}
+.l-radios{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.l-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.l-conf{display:grid;grid-template-columns:240px minmax(0,1fr);border-top:1px solid rgba(233,199,123,0.45)}
+.l-conf > dt{padding:24px 0;border-bottom:1px solid rgba(233,199,123,0.25);font-weight:700}
+.l-conf > dd{margin:0;padding:24px 0;border-bottom:1px solid rgba(233,199,123,0.25)}
+.l-btn{display:inline-block;text-decoration:none;font:inherit;font-weight:700;font-size:17px;padding:20px 64px;border-radius:999px;border:0;cursor:pointer;background:#E9C77B;color:#0F1A3D}
+.l-btn-ghost{background:transparent;color:#F3F1EA;border:1px solid #F3F1EA;font-weight:400;padding:20px 44px}
+.l-hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+@media (max-width:900px){.l-row,.l-conf{grid-template-columns:repeat(1,minmax(0,1fr));gap:12px}.l-conf > dt{border-bottom:0;padding-bottom:4px}.l-conf > dd{padding-top:4px}.l-radios{grid-template-columns:repeat(1,minmax(0,1fr))}}
+
+/* 規約・ポリシー本文 */
+.l-doc h2{margin:56px 0 16px;font-family:'Zen Old Mincho',serif;font-weight:700;font-size:22px;padding-bottom:12px;border-bottom:1px solid rgba(233,199,123,0.35)}
+.l-doc p,.l-doc li{font-size:15px;line-height:2.05;color:#DCDFEC}
+.l-doc p{margin:0 0 12px}
+.l-doc ol,.l-doc ul{margin:0 0 12px;padding-left:24px}
+.l-doc a{color:#E9C77B}
+
+@media (prefers-reduced-motion:reduce){.l-sky-sub{animation:none}}
+.l-sky{background:linear-gradient(180deg,#040A2C 0%,#0A1C66 16%,#1432A0 32%,#2448C4 44%,#4A4FC6 55%,#7A54BC 64%,#B45EA6 72%,#E07894 79%,#F59B86 86%,#FFC38C 93%,#FFE4B6 100%);background-size:100% 160%;animation:l-dusk 30s ease-in-out infinite alternate}
+.l-tw1{animation:l-twinkle 3.2s ease-in-out infinite alternate}
+.l-tw2{animation:l-twinkle 4.6s ease-in-out 1.4s infinite alternate-reverse}
+.l-tw3{animation:l-twinkle 5.8s ease-in-out 2.6s infinite alternate}
+.l-shoot{position:absolute;left:62%;top:90px;width:200px;height:1.5px;border-radius:2px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(214,228,255,0.5) 60%,#FFFFFF);box-shadow:0 0 6px rgba(214,228,255,0.8);opacity:0;animation:l-shoot 9s ease-in 1s infinite}
+.l-shoot2{left:30%;top:60px;width:150px;animation-duration:13s;animation-delay:6s}
+.l-cloud{animation:l-drift 60s linear infinite alternate}
+.l-cloud2{animation-duration:80s;animation-direction:alternate-reverse}
+.l-lights{animation:l-flicker 2.4s steps(2) infinite alternate}
+@keyframes l-dusk{0%{background-position:50% 0%}100%{background-position:50% 100%}}
+@keyframes l-twinkle{0%{opacity:0.3}100%{opacity:1}}
+@keyframes l-flicker{0%{opacity:0.75}100%{opacity:1}}
+@keyframes l-shoot{0%{opacity:0;transform:rotate(-24deg) translateX(0)}4%{opacity:1}12%{opacity:0;transform:rotate(-24deg) translateX(-360px)}100%{opacity:0;transform:rotate(-24deg) translateX(-360px)}}
+@keyframes l-drift{0%{transform:translateX(0)}100%{transform:translateX(-260px)}}
+@media (prefers-reduced-motion:reduce){.l-sky,.l-tw1,.l-tw2,.l-tw3,.l-shoot,.l-cloud,.l-lights{animation:none}.l-shoot{opacity:0}}
+.l-wave{background-color:#0F1A3D;background-image:radial-gradient(circle at 50% 100%,transparent 9px,rgba(233,199,123,0.35) 10px,transparent 11px,transparent 17px,rgba(233,199,123,0.35) 18px,transparent 19px,transparent 25px,rgba(233,199,123,0.35) 26px,transparent 27px);background-size:56px 28px}
+.l-hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:48px;align-items:center}
+.l-svc{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.l-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px}
+@media (max-width:1000px){
+.l-svc{grid-template-columns:repeat(2,minmax(0,1fr))}
+.l-hero,.l-two{grid-template-columns:repeat(1,minmax(0,1fr))}
+.l-vert{writing-mode:horizontal-tb !important;height:auto !important;font-size:44px !important;order:-1}
+}
+@media (max-width:640px){
+.l-svc{grid-template-columns:repeat(1,minmax(0,1fr))}
+}
