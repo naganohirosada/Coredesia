@@ -46,7 +46,9 @@ class PageTest extends TestCase
             $this->get($path)
                 ->assertSee('class="l-burger" aria-controls="l-nav" aria-expanded="false"', false)
                 ->assertSee('id="l-nav"', false)
-                ->assertSee('images/logo/coredesia-logo-color-on-dark.svg', false);
+                ->assertSee('images/logo/coredesia-logo-color-on-dark-web.svg', false)
+                ->assertSee('rel="apple-touch-icon"', false)
+                ->assertDontSee('>COREDESIA<', false);
         }
     }
 

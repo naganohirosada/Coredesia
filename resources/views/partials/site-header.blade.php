@@ -1,6 +1,6 @@
 {{-- 共通ヘッダー（ヒーロー／見出し帯の中に配置する） --}}
 <header class="l-header">
-    <a href="{{ route('top') }}" class="l-logo"><img src="{{ asset('images/logo/coredesia-logo-color-on-dark.svg') }}" alt="Coredesia" width="202" height="36"></a>
+    <a href="{{ route('top') }}" class="l-logo"><img src="{{ asset('images/logo/coredesia-logo-color-on-dark-web.svg') }}" alt="Coredesia" width="202" height="36"></a>
     {{-- スマホ・タブレット幅でのみ表示するハンバーガーボタン --}}
     <button type="button" class="l-burger" aria-controls="l-nav" aria-expanded="false" aria-label="メニューを開く">
         <span></span><span></span><span></span>

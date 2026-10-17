@@ -2,7 +2,7 @@
 <footer class="l-footer">
     <div class="l-foot">
         <div>
-            <p style="margin: 0 0 12px; font-family: Montserrat, sans-serif; font-weight: 700; letter-spacing: 0.12em; font-size: 18px; color: #F3F1EA">COREDESIA</p>
+            <p style="margin: 0 0 16px"><img src="{{ asset('images/logo/coredesia-logo-color-on-dark-web.svg') }}" alt="Coredesia" width="180" height="32" style="display: block; height: 32px; width: auto"></p>
             <p style="margin: 0; line-height: 1.9">株式会社Coredesia（興亜グループ）<br>〒812-0061 福岡県福岡市東区筥松2-6-9<br>バアウ・ハウス・カミング 2-1-c</p>
         </div>
         <nav aria-label="フッターメニュー" style="display: flex; flex-direction: column; gap: 10px">
