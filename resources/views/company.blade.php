@@ -1,130 +1,54 @@
-@extends('layouts.frontend')
+@extends('layouts.site')
 
-@section('title', '会社概要・代表挨拶')
+@section('title', '会社概要・代表挨拶｜株式会社Coredesia')
+@section('description', '株式会社Coredesia（コアデシア）の会社概要と代表挨拶です。')
 
 @section('content')
+@include('partials.sub-hero', ['en' => 'Company', 'title' => '会社概要', 'crumbs' => ['会社概要' => null]])
 
-<div class="company-page-wrapper">
-
-    <section class="section-greeting py-5 overflow-hidden">
-        <div class="accent-blur" style="top: 10%; right: -5%;"></div>
-        <div class="container py-5 position-relative" style="z-index: 1;">
-            <div class="row justify-content-center text-center text-md-start">
-                <div class="col-lg-10" data-aos="fade-up">
-                    <span class="section-title-en fw-bold mb-3 d-block">CEO MESSAGE</span>
-                    <h2 class="fw-bold mb-5 display-5 text-shadow-sm">代表挨拶</h2>
-                    <div class="fs-5 lh-lg text-dark">
-                        <p class="mb-4 fw-bold text-info">
-                            デジタルの力で、誰もが「冒険」を楽しめる世界を創りたい。
-                        </p>
-                        <p class="mb-4">
-                            私は長年エンジニアとして、多くのシステム開発に携わってきました。その中で強く感じたのは、どんなに優れた技術も、そこに「想い」と「ワクワク」がなければ、真に価値のあるものは生まれないということです。
-                        </p>
-                        <p class="mb-4">
-                            株式会社Coredesiaは、昭和16年から続く株式会社興亜の「ものづくりへの誠実さ」を血に引き、そこに現代のIT機動力を掛け合わせた新しい形のテックカンパニーです。
-                        </p>
-                        <p>
-                            お客様の抱える課題の「芯（Core）」を捉え、共に未知なる可能性（Desia）へ向けて歩む。私たちは、あなたの最高の「冒険の仲間」であり続けることをお約束します。
-                        </p>
-                        <div class="mt-5 text-end" data-aos="fade-left" data-aos-delay="500">
-                            <p class="mb-0 text-secondary">株式会社Coredesia 代表取締役</p>
-                            <h3 class="fw-bold mt-1">長野 弘禎</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-profile py-5">
-        <div class="accent-blur" style="bottom: 0%; left: -10%; background: var(--main-pink);"></div>
-        <div class="container py-5">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-md-5 text-center mb-5 mb-md-0" data-aos="fade-right">
-                    <div class="profile-image-container">
-                        <img src="{{ asset('images/ceo.jpg') }}" alt="長野 弘禎" class="profile-img img-fluid">
-                    </div>
-                </div>
-                <div class="col-md-6" data-aos="fade-left">
-                    <div class="ps-md-4">
-                        <h3 class="fw-bold mb-0 display-6">長野 弘禎</h3>
-                        <p class="text-secondary mb-4">Hirosada Nagano / CEO & Full Stack Engineer</p>
-                        
-                        <div class="mb-4">
-                            <h4 class="fs-6 fw-bold text-info border-bottom border-info border-2 d-inline-block pb-1 mb-3">Background</h4>
-                            <p class="text-secondary lh-lg">
-                                2018年よりエンジニアとしてのキャリアをスタート。大手企業の基幹システムから小規模なWebサービスまで、幅広い開発プロジェクトを経験。フリーランスとして独立後、技術のみならずビジネスの「芯」を捉える提案力を武器に数々のプロジェクトを成功に導く。<br><br>
-                                2025年、株式会社興亜のグループ企業として株式会社Coredesiaを設立。エンジニア目線の「確かな品質」と、経営者目線の「スピード感」を両立させた開発体制を構築している。
-                            </p>
-                        </div>
-                        
-                        <div>
-                            <h4 class="fs-6 fw-bold text-info border-bottom border-info border-2 d-inline-block pb-1 mb-3">Specialty</h4>
-                            <p class="text-dark fw-medium">
-                                <i class="bi bi-check2-circle text-info me-2"></i>Webシステム開発 (Laravel / Vue.js)<br>
-                                <i class="bi bi-check2-circle text-info me-2"></i>クラウドインフラ構築 (AWS / Google Cloud)<br>
-                                <i class="bi bi-check2-circle text-info me-2"></i>DX推進・ITコンサルティング
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-info py-5 bg-grid">
-        <div class="container py-5">
-            <div class="text-center mb-5" data-aos="fade-up">
-                <span class="section-title-en fw-bold mb-2 d-block">COMPANY PROFILE</span>
-                <h2 class="fw-bold">会社概要</h2>
-            </div>
-            
-            <div class="bg-white p-4 p-md-5 rounded-4 shadow-lg mx-auto border border-light" style="max-width: 900px;" data-aos="fade-up">
-                <table class="table table-borderless align-middle mb-0">
-                    <tbody class="fs-6">
-                        <tr class="border-bottom">
-                            <th class="py-4 text-secondary w-25">会社名</th>
-                            <td class="py-4 fw-bold text-dark">株式会社Coredesia（コアデシア）</td>
-                        </tr>
-                        <tr class="border-bottom">
-                            <th class="py-4 text-secondary">設立</th>
-                            <td class="py-4">2025年5月</td>
-                        </tr>
-                        <tr class="border-bottom">
-                            <th class="py-4 text-secondary">代表取締役</th>
-                            <td class="py-4">長野 弘禎</td>
-                        </tr>
-                        <tr class="border-bottom">
-                            <th class="py-4 text-secondary">所在地</th>
-                            <td class="py-4">
-                                〒812-0061 福岡県福岡市東区筥松2-6-9<br>
-                                <span class="text-muted">バアウ・ハウス・カミング 2-c</span>
-                            </td>
-                        </tr>
-                        <tr class="border-bottom">
-                            <th class="py-4 text-secondary">親会社</th>
-                            <td class="py-4">
-                                <a href="https://www.ko-ua.co.jp/" target="_blank" class="fw-bold text-decoration-none text-info">株式会社興亜</a><br>
-                                <span class="small text-muted">〒811-2112 福岡県糟屋郡須恵町大字植木字中野1883-1</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="py-4 text-secondary">事業内容</th>
-                            <td class="py-4">
-                                <ul class="list-unstyled mb-0">
-                                    <li>・Webシステム開発</li>
-                                    <li>・アプリケーション開発</li>
-                                    <li>・HP・LP制作・運用</li>
-                                    <li>・ITコンサルティング</li>
-                                    <li>・採用代行</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
+<section style="max-width: 1280px; margin: 0 auto; padding: 104px 32px 80px">
+<p style="margin: 0 0 16px; font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 22px; color: #E9C77B">CEO Message</p>
+<div class="l-msg">
+<div>
+<h2 style="margin: 0 0 32px; font-family: 'Zen Old Mincho', serif; font-weight: 700; font-size: 34px; line-height: 1.8">デジタルの力で、誰もが<br>「冒険」を楽しめる世界を創りたい。</h2>
+<div style="font-size: 16px; line-height: 2.2; color: #C5C9E0">
+<p style="margin: 0 0 24px">私は長年エンジニアとして、多くのシステム開発に携わってきました。その中で強く感じたのは、どんなに優れた技術も、そこに「想い」と「ワクワク」がなければ、真に価値のあるものは生まれないということです。</p>
+<p style="margin: 0 0 24px">株式会社Coredesiaは、昭和16年から続く株式会社興亜の「ものづくりへの誠実さ」を受け継ぎ、そこに現代のIT機動力を掛け合わせた新しい形のテックカンパニーです。</p>
+<p style="margin: 0">お客様の抱える課題の「芯（Core）」を捉え、共に未知なる可能性（Desia）へ向けて歩む。私たちは、あなたの最高の「冒険の仲間」であり続けることをお約束します。</p>
 </div>
+<p style="margin: 36px 0 0; font-size: 14px; color: #C5C9E0">株式会社Coredesia 代表取締役</p>
+<p style="margin: 6px 0 0; font-family: 'Zen Old Mincho', serif; font-size: 28px">長野 弘禎</p>
+</div>
+<aside style="border: 1px solid rgba(233,199,123,0.45); padding: 16px; background: rgba(30,42,107,0.35)">
+<img src="{{ asset('images/ceo.jpg') }}" alt="代表取締役 長野弘禎" style="width: 100%; display: block; aspect-ratio: 4 / 5; object-fit: cover">
+<div style="padding: 24px 8px 8px">
+<p style="margin: 0; font-family: 'Zen Old Mincho', serif; font-size: 22px">長野 弘禎</p>
+<p style="margin: 4px 0 20px; font-size: 13px; color: #E9C77B">Hirosada Nagano ／ CEO &amp; Full Stack Engineer</p>
+<p style="margin: 0 0 16px; font-size: 13px; line-height: 2; color: #C5C9E0">2018年よりエンジニアとしてのキャリアをスタート。大手企業の基幹システムから小規模なWebサービスまで、幅広い開発プロジェクトを経験。フリーランスとして独立後、技術のみならずビジネスの「芯」を捉える提案力を武器に、数々のプロジェクトに携わる。2025年5月、株式会社Coredesiaとして興亜グループのテックカンパニーを始動。</p>
+<p style="margin: 0; font-size: 13px; line-height: 1.9"><span style="color: #E9C77B">Specialty</span><br>Webシステム開発（Laravel ／ Vue.js）<br>クラウドインフラ構築（AWS ／ Google Cloud）<br>DX推進・ITコンサルティング</p>
+</div>
+</aside>
+</div>
+</section>
+
+<section style="max-width: 1280px; margin: 0 auto; padding: 80px 32px">
+<p style="margin: 0 0 16px; font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 22px; color: #E9C77B">Profile</p>
+<h2 style="margin: 0 0 40px; font-family: 'Zen Old Mincho', serif; font-weight: 700; font-size: 34px">会社情報</h2>
+<dl class="l-prof" style="margin: 0; font-size: 15px; line-height: 1.9">
+<dt>会社名</dt><dd>株式会社Coredesia（コアデシア）</dd>
+<dt>設立</dt><dd>1995年（平成7年）2月16日</dd>
+<dt>商号変更</dt><dd>2025年5月20日 株式会社Coredesiaに商号変更</dd>
+<dt>代表取締役</dt><dd>長野 弘禎</dd>
+<dt>所在地</dt><dd>〒812-0061 福岡県福岡市東区筥松2-6-9 バアウ・ハウス・カミング 2-1-c</dd>
+<dt>法人番号</dt><dd>1290002004812</dd>
+<dt>親会社</dt><dd><a href="https://www.ko-ua.co.jp/" target="_blank" rel="noopener" style="color: #E9C77B">株式会社興亜</a><br><span style="font-size: 13px; color: #C5C9E0">〒811-2112 福岡県糟屋郡須恵町大字植木字中野1883-1</span></dd>
+<dt>事業内容</dt><dd>Webシステム開発・アプリケーション開発<br>HP・LP制作・運用<br>ITコンサルティング<br>採用支援（RPO）<br>自社プロダクト「CORE DX PORTAL」の開発・提供</dd>
+</dl>
+</section>
+
+<section style="max-width: 1280px; margin: 0 auto; padding: 80px 32px 104px">
+<p style="margin: 0 0 16px; font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 22px; color: #E9C77B">Access</p>
+<h2 style="margin: 0 0 32px; font-family: 'Zen Old Mincho', serif; font-weight: 700; font-size: 34px">アクセス</h2>
+<p style="margin: 20px 0 0; font-size: 15px; line-height: 1.9">〒812-0061 福岡県福岡市東区筥松2-6-9 バアウ・ハウス・カミング 2-1-c</p>
+</section>
 @endsection

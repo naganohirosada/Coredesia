@@ -76,3 +76,33 @@ a{color:#F3F1EA}a:hover{color:#E9C77B}
 @media (max-width:640px){
 .l-svc{grid-template-columns:repeat(1,minmax(0,1fr))}
 }
+
+/* 事業内容 */
+.l-toc{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.l-svc-row{display:grid;grid-template-columns:200px minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:start}
+.l-flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+
+/* CORE DX PORTAL */
+.l-three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.l-feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.l-ba{display:grid;grid-template-columns:220px minmax(0,1fr) minmax(0,1fr);gap:0}
+.l-tbl{overflow-x:auto}
+.l-feat summary,details summary{min-height:44px}
+
+/* 会社概要 */
+.l-msg{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:64px;align-items:start}
+.l-prof{display:grid;grid-template-columns:200px minmax(0,1fr);border-top:1px solid rgba(233,199,123,0.45)}
+.l-prof > dt{padding:22px 0;border-bottom:1px solid rgba(233,199,123,0.25);color:#C5C9E0}
+.l-prof > dd{margin:0;padding:22px 0;border-bottom:1px solid rgba(233,199,123,0.25)}
+
+@media (max-width:1000px){
+.l-svc-row,.l-three,.l-msg{grid-template-columns:repeat(1,minmax(0,1fr));gap:24px}
+.l-svc-row > span:first-child{font-size:56px !important}
+.l-toc{grid-template-columns:repeat(2,minmax(0,1fr))}
+.l-flow,.l-ba{grid-template-columns:repeat(1,minmax(0,1fr))}
+}
+@media (max-width:900px){
+.l-prof{grid-template-columns:repeat(1,minmax(0,1fr))}
+.l-prof > dt{border-bottom:0;padding-bottom:4px}
+.l-prof > dd{padding-top:4px}
+}
