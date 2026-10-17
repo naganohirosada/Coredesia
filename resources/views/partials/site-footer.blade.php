@@ -8,7 +8,6 @@
         <nav aria-label="フッターメニュー" style="display: flex; flex-direction: column; gap: 10px">
             <a href="{{ route('about') }}">Coredesiaについて</a>
             <a href="{{ route('services') }}">事業内容</a>
-            <a href="{{ route('services.coredx') }}">CORE DX PORTAL</a>
             <a href="{{ route('company') }}">会社概要</a>
         </nav>
         <nav aria-label="サポートメニュー" style="display: flex; flex-direction: column; gap: 10px">
