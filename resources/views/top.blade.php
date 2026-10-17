@@ -108,7 +108,7 @@
                     <i class="bi bi-chat-heart text-danger h1 mb-3"></i>
                     <h5 class="fw-bold">Contact</h5>
                     <p class="small text-muted">まずは、お気軽にご相談ください！</p>
-                    <a href="mailto:nagano_hirosada@coredesia.com?subject=お問い合わせ&body=株式会社Coredesia様%0D%0A%0D%0Aお問い合わせ内容：" class="stretched-link"></a>
+                    <a href="{{ route('contact') }}" class="stretched-link" aria-label="お問い合わせ"></a>
                 </div>
             </div>
         </div>

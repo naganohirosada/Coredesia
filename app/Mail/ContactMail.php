@@ -32,6 +32,8 @@ class ContactMail extends Mailable
     {
         return new Envelope(
             from: new Address(config('mail.from.address'), config('mail.from.name')),
+            // 管理者宛ては、返信ボタンでそのままお客様に返信できるようにする
+            replyTo: $this->is_admin ? [new Address($this->inputs['email'], $this->inputs['name'])] : [],
             subject: $this->is_admin ? '【株式会社Coredesia】管理者宛のお問い合わせ' : '【株式会社Coredesia】お問い合わせありがとうございます',
         );
     }

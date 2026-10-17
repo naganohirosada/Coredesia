@@ -106,6 +106,12 @@
                     <div class="contact-form-card p-4 p-md-5">
                         <form action="{{ route('contact.confirm') }}" method="POST">
                             @csrf
+                            {{-- スパム対策のハニーポット（人には表示しない） --}}
+                            <div style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
+                                <label for="homepage">ホームページ</label>
+                                <input type="text" id="homepage" name="homepage" tabindex="-1" autocomplete="off" value="">
+                            </div>
+                            <div class="row g-4">
                             <div class="col-md-6">
                                 <label for="name" class="form-label">お名前<span class="badge badge-required rounded-pill">必須</span></label>
                                 <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" placeholder="興亜 太郎" value="{{ old('name') }}">
@@ -134,10 +140,9 @@
                                 <label for="subject" class="form-label">お問い合わせ項目<span class="badge badge-required rounded-pill">必須</span></label>
                                 <select class="form-select @error('subject') is-invalid @enderror" id="subject" name="subject">
                                     <option value="" selected disabled>選択してください</option>
-                                    <option value="system" {{ old('subject') == 'system' ? 'selected' : '' }}>Webシステム・アプリ開発について</option>
-                                    <option value="website" {{ old('subject') == 'website' ? 'selected' : '' }}>HP・LP制作について</option>
-                                    <option value="consulting" {{ old('subject') == 'consulting' ? 'selected' : '' }}>ITコンサルティングについて</option>
-                                    <option value="other" {{ old('subject') == 'other' ? 'selected' : '' }}>その他のお問い合わせ</option>
+                                    @foreach (\App\Models\Contact::SUBJECTS as $value => $label)
+                                        <option value="{{ $value }}" {{ old('subject') == $value ? 'selected' : '' }}>{{ $label }}</option>
+                                    @endforeach
                                 </select>
                                 @error('subject')
                                     <div class="invalid-feedback fw-bold">{{ $message }}</div>
