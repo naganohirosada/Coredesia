@@ -45,7 +45,8 @@ class PageTest extends TestCase
         foreach (['/', '/company'] as $path) {
             $this->get($path)
                 ->assertSee('class="l-burger" aria-controls="l-nav" aria-expanded="false"', false)
-                ->assertSee('id="l-nav"', false);
+                ->assertSee('id="l-nav"', false)
+                ->assertSee('images/logo/coredesia-logo-color-on-dark.svg', false);
         }
     }
 

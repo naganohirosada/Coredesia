@@ -9,7 +9,9 @@ a{color:#F3F1EA}a:hover{color:#E9C77B}
 
 /* 共通ヘッダー */
 .l-header{position:relative;max-width:1280px;margin:0 auto;padding:26px 32px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
-.l-logo{font-family:Montserrat,sans-serif;font-weight:700;font-size:22px;letter-spacing:0.12em;text-decoration:none}
+.l-logo{display:block;text-decoration:none}
+.l-logo img{display:block;height:36px;width:auto}
+@media (max-width:640px){.l-logo img{height:30px}}
 .l-nav{display:flex;gap:28px;align-items:center;flex-wrap:wrap;font-size:14px;letter-spacing:0.06em}
 .l-nav a{text-decoration:none}
 .l-nav a[aria-current="page"]{color:#E9C77B}
