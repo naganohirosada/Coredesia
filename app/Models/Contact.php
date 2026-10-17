@@ -14,7 +14,7 @@ class Contact extends Model
      * フォーム・確認画面・メール・バリデーションで共通利用する
      */
     public const SUBJECTS = [
-        'system' => 'システム開発（Web・アプリ）について',
+        'system' => 'Webシステム開発・アプリケーション開発について',
         'coredx' => 'CORE DX PORTALについて',
         'website' => 'HP・LP制作について',
         'consulting' => 'ITコンサルティングについて',

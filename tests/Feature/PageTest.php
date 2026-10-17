@@ -52,7 +52,7 @@ class PageTest extends TestCase
     public function test_services_page_lists_all_services(): void
     {
         $this->get('/services')
-            ->assertSee('システム開発')
+            ->assertSee('Webシステム開発・アプリケーション開発')
             ->assertSee('採用支援')
             ->assertDontSee('LAB PLAN');
     }

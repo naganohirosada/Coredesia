@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', '株式会社Coredesia（コアデシア）')</title>
-    <meta name="description" content="@yield('description', '株式会社Coredesia（コアデシア）の公式サイトです。システム開発、HP・LP制作、ITコンサルティング、採用支援、自社プロダクト「CORE DX PORTAL」を提供しています。')">
+    <meta name="description" content="@yield('description', '株式会社Coredesia（コアデシア）の公式サイトです。Webシステム開発・アプリケーション開発、HP・LP制作、ITコンサルティング、採用支援、自社プロダクト「CORE DX PORTAL」を提供しています。')">
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="株式会社Coredesia">

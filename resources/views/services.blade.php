@@ -1,7 +1,7 @@
 @extends('layouts.site')
 
 @section('title', '事業内容｜株式会社Coredesia')
-@section('description', 'システム開発（Web・アプリ）、HP・LP制作・運用、ITコンサルティング、採用支援（RPO）を提供しています。')
+@section('description', 'Webシステム開発・アプリケーション開発、HP・LP制作・運用、ITコンサルティング、採用支援（RPO）を提供しています。')
 
 @section('content')
 @include('partials.sub-hero', ['en' => 'Services', 'title' => '事業内容', 'crumbs' => ['事業内容' => null]])
@@ -9,7 +9,7 @@
 <section style="max-width: 1280px; margin: 0 auto; padding: 96px 32px 40px">
 <p style="margin: 0 0 40px; max-width: 760px; font-size: 17px; line-height: 2.1; color: #C5C9E0">Coredesiaは、確かな技術（芯）を武器に、お客様の新しい挑戦をデジタルの領域からトータルでサポートします。</p>
 <nav class="l-toc" aria-label="事業一覧">
-<a href="#web" style="text-decoration: none; border: 1px solid rgba(233,199,123,0.45); padding: 18px 20px; display: flex; gap: 14px; align-items: center"><span style="font-family: 'Zen Old Mincho', serif; font-size: 28px; color: #E9C77B">一</span>システム開発</a>
+<a href="#web" style="text-decoration: none; border: 1px solid rgba(233,199,123,0.45); padding: 18px 20px; display: flex; gap: 14px; align-items: center"><span style="font-family: 'Zen Old Mincho', serif; font-size: 28px; color: #E9C77B">一</span>Webシステム開発・アプリケーション開発</a>
 <a href="#hp" style="text-decoration: none; border: 1px solid rgba(233,199,123,0.45); padding: 18px 20px; display: flex; gap: 14px; align-items: center"><span style="font-family: 'Zen Old Mincho', serif; font-size: 28px; color: #E9C77B">二</span>HP・LP制作・運用</a>
 <a href="#consulting" style="text-decoration: none; border: 1px solid rgba(233,199,123,0.45); padding: 18px 20px; display: flex; gap: 14px; align-items: center"><span style="font-family: 'Zen Old Mincho', serif; font-size: 28px; color: #E9C77B">三</span>ITコンサルティング</a>
 <a href="#rpo" style="text-decoration: none; border: 1px solid rgba(233,199,123,0.45); padding: 18px 20px; display: flex; gap: 14px; align-items: center"><span style="font-family: 'Zen Old Mincho', serif; font-size: 28px; color: #E9C77B">四</span>採用支援（RPO）</a>
@@ -20,7 +20,7 @@
 <div class="l-svc-row">
 <span style="font-family: 'Zen Old Mincho', serif; font-size: 96px; line-height: 1; color: #E9C77B">一</span>
 <div>
-<h2 style="margin: 0 0 20px; font-family: 'Zen Old Mincho', serif; font-weight: 700; font-size: 34px">システム開発</h2>
+<h2 style="margin: 0 0 20px; font-family: 'Zen Old Mincho', serif; font-weight: 700; font-size: 34px">Webシステム開発・アプリケーション開発</h2>
 <p style="margin: 0 0 24px; font-size: 16px; line-height: 2; color: #C5C9E0">業務システムやWebサービスから、スマートフォンアプリまで。システム開発全般を、企画・設計から開発、公開後の運用まで一貫してお受けします。お客様のビジネスの「芯」を理解し、長く使い続けられる高品質なシステムを提供します。</p>
 <p style="margin: 0; font-size: 13px; color: #C5C9E0">主な技術：Laravel ／ Vue.js ／ AWS ／ Google Cloud</p>
 </div>

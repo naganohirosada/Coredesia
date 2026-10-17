@@ -16,4 +16,3 @@ class GenerateSitemap extends Command
             ->writeToFile(public_path('sitemap.xml'));
     }
 }
-}
